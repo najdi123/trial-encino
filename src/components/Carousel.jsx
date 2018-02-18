@@ -18,9 +18,9 @@ class Carousel extends Component {
             <div id="carousel" className="carousel carousel-fade" data-ride="carousel" data-interval="1900">
                 <ol className="carousel-indicators" style={{display : 'none'}}>
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    {/*<li data-target="#carousel" data-slide-to="1"></li>*/}
-                    {/*<li data-target="#carousel" data-slide-to="2"></li>*/}
-                    {/*<li data-target="#carousel" data-slide-to="3"></li>*/}
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
 
 
 
@@ -34,29 +34,29 @@ class Carousel extends Component {
 
                     </div>
 
-                    {/*<div className="carousel-item">*/}
-                            {/*<picture>*/}
-                                            {/*<img src={pic2} alt="responsive image" className="d-block img-fluid" />*/}
-                            {/*</picture>*/}
+                    <div className="carousel-item">
+                            <picture>
+                                            <img src={pic2} alt="responsive image" className="d-block img-fluid" />
+                            </picture>
 
-                    {/*</div>*/}
+                    </div>
 
-                    {/*<div className="carousel-item">*/}
-                            {/*<picture>*/}
-                                            {/*<img src={pic3} alt="responsive image" className="d-block img-fluid" />*/}
-                            {/*</picture>*/}
-
-
-                    {/*</div>*/}
-
-                    {/*<div className="carousel-item">*/}
-
-                            {/*<picture>*/}
-                                {/*<img src={pic4} alt="responsive image" className="d-block img-fluid" />*/}
-                            {/*</picture>*/}
+                    <div className="carousel-item">
+                            <picture>
+                                            <img src={pic3} alt="responsive image" className="d-block img-fluid" />
+                            </picture>
 
 
-                    {/*</div>*/}
+                    </div>
+
+                    <div className="carousel-item">
+
+                            <picture>
+                                <img src={pic4} alt="responsive image" className="d-block img-fluid" />
+                            </picture>
+
+
+                    </div>
 
 
 

@@ -7,12 +7,12 @@ import SpringSummer from "../components/SpringSummer2018";
 class Springsummer extends Component {
     render() {
         return (
-            <div>
+            <div style={{backgroundColor: 'black'}}>
                 <Navbar />
 
-                <div className="container" style={{textAlign : 'center', padding:0}}>
+                <div className="container" style={{textAlign : 'center', padding:0, backgroundColor: 'black'}}>
 
-                    <h1 style={{padding : '6rem'}}>Spring - Summer 2018</h1>
+                    <h1 style={{padding : '6rem', color : '#aaa'}}>Spring - Summer 2018</h1>
                     <SpringSummer/>
                 </div>
                 <Footer />

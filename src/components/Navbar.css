@@ -1,5 +1,8 @@
 .navbar-brand {
-    color: #333;
+    color: #aaa;
+}
+.navbar-toggler-icon{
+    color: #aaa;
 }
 
 a {
@@ -7,6 +10,11 @@ a {
     font-weight: 200;
 }
 .logo{
-    width: 150px;
+    width: 60px;
     height: auto;
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: black;
 }

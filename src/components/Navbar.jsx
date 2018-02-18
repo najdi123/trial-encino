@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logo from "../images/ebra logo.png";
+import logo from "../images/logo.png";
 
 class Navbar extends Component {
     render() {
@@ -23,7 +23,7 @@ class Navbar extends Component {
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <Link className="dropdown-item" to="/Spring-Summer-2018">Spring - summer - 2018</Link>
-                                    <a className="dropdown-item" href="#">Fall - Winter - 2017</a>
+                                    <Link className="dropdown-item" to="/Fall-Winter-2017">Fall - Winter - 2017</Link>
                                 </div>
                             </li>
                             <li className="nav-item">
